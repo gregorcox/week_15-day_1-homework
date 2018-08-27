@@ -22,7 +22,7 @@ class MovieBox extends React.Component {
     return (
       <div className="movie-box">
         This is my Movie component
-        <CommentList comments={this.state.movies}/>
+        <MovieList movies={this.state.movies}/>
       </div>
     );
   }
