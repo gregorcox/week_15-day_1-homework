@@ -35,4 +35,18 @@ button {
   height: 60px;
   text-align: center;
   width: 10%;
+  cursor: pointer;
+}
+
+.movie-box {
+  margin-left: 20px;
+}
+
+.movie-title {
+  color: blue;
+  cursor: pointer;
+}
+
+.movie-title:hover {
+  text-decoration: underline;
 }

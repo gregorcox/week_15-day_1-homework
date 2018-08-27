@@ -3,7 +3,7 @@ import React from 'react';
 const Movie = function (props) {
   return (
     <li>
-      <p>{props.children}</p>
+      <p className="movie-title">{props.children}</p>
     </li>
   );
 }
