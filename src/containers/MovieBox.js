@@ -1,5 +1,6 @@
 import React from 'react';
 import MovieList from '../components/MovieList';
+import '../App.css';
 
 class MovieBox extends React.Component {
 
@@ -21,8 +22,8 @@ class MovieBox extends React.Component {
   render(){
     return (
       <div className="movie-box">
-        This is my Movie component
         <MovieList movies={this.state.movies}/>
+        <button className="showtimes">Get Showtimes</button>
       </div>
     );
   }

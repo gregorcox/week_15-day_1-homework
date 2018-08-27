@@ -12,7 +12,7 @@ class MovieList extends React.Component {
     });
     return (
       <ul>
-        This is the MovieList
+        UK opening this week
         {movieComponents}
       </ul>
     );
